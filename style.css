@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+* {
+    margin: 0;
+    /* Zera a margin */
+    padding: 0;
+    /* Zera o padding */
+}
+
+body {
+    background-color: #201F1F;
+    font-family: 'Roboto';
+    text-align: center;
+    /* Centraliza o texto */
+    height: 100vh;
+    /*Altura */
+}
+
+.container {
+    display: flex;
+    /*deixa o display flexivel*/
+    justify-content: center;
+    /* Centraliza de cima p baixo*/
+    flex-direction: column;
+    /*Coloca em colunas*/
+    align-items: center;
+    /*Alinha os itens*/
+    height: 100vh;
+    /* Altura do container */
+}
+
+h1 {
+    color: #ffffff;
+    font-size: 3rem;
+    /*Tamanho da fonte*/
+    margin-bottom: 3.125rem;
+    /*Espaçamento com o elemento de baixo*/
+
+}
+
+.logo_div {
+    display: flex;
+    /*deixa o display flexivel*/
+    align-items: center;
+    /*Alinhamento*/
+    justify-content: center;
+    width: 70%;
+    /*Tamanho da div*/
+    border-radius: 25px;
+    background-color: #ffffff;
+
+}
+
+.logo_div img {
+    display: flex;
+    max-width: 80%;
+    /*Tamanho img*/
+    padding: 5% 10%;
+    /*Padding */
+}
+
+
+
+.button_index {
+    border: none;
+    /*Sem borda*/
+    display: flex;
+    /*Botão Flex*/
+    margin-top: 3.125rem;
+    /*Espaçamento com o elemento de cima*/
+    padding: 0.5% 5%;
+    /*Padding */
+    font-family: 'Roboto';
+    align-items: center;
+    background-color: #ffffff;
+    border-radius: 25px;
+    /*Arredondamento*/
+    font-size: 1rem;
+
+
+}
+
+.button_index img {
+    max-width: 15%;
+
+}
+
+.button_index a {
+    text-decoration: none;
+    color: #000000;
+    font-size: 1.5rem;
+
+}
+
+.button_div {
+    max-width: 80%;
+    align-items: center;
+    display: flex;
+}
+
+
+@media (max-width: 720px) {
+
+    .logo_div img {
+        width: 50%;
+    }
+
+    h1 {
+        font-size: 200%;
+
+    }
+
+    .button_index a {
+        font-size: 95%;
+    }
+
+    .button_index img {
+        width: 15%;
+    }
+}
+
+@media (max-width: 420px) {
+    h1 {
+        font-size: 170%;
+
+    }
+
+    .logo_div img {
+        width: 70%;
+    }
+
+    .logo_div {
+        width: 85%;
+    }
+
+    button {
+        width: 40%;
+    }
+
+    .button_div {
+        width: 60%;
+    }
+
+
+
+
+}
