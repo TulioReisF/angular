@@ -202,7 +202,9 @@ font-size: 12px;
 .conteudobtn button{
     margin-bottom: 10px;
 }
-    
+    .valorescards{
+        justify-content: space-between;
+    }
     .cards{
         display: grid;
         grid-template-columns:1fr;
@@ -213,6 +215,11 @@ font-size: 12px;
 
         .cards .cardtexto1{
             margin-left: 25px;
+        }
+
+        .cabecalho img {
+            width: 35%;
+            height: 15%;
         }
         
 }
