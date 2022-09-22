@@ -30,10 +30,10 @@ body {
 }
 
 h1 {
-    color: #ffffff;
-    font-size: 3rem;
+    color: #fff;
+    font-size: 2rem;
     /*Tamanho da fonte*/
-    margin-bottom: 3.125rem;
+    margin-bottom: 1.6rem;
     /*Espaçamento com o elemento de baixo*/
 
 }
@@ -44,16 +44,17 @@ h1 {
     align-items: center;
     /*Alinhamento*/
     justify-content: center;
-    width: 70%;
+    width: 40%;
+    min-width: 55%;
     /*Tamanho da div*/
     border-radius: 25px;
-    background-color: #ffffff;
+    background-color: #fff;
 
 }
 
 .logo_div img {
     display: flex;
-    max-width: 80%;
+    max-width: 50%;
     /*Tamanho img*/
     padding: 5% 10%;
     /*Padding */
@@ -66,13 +67,13 @@ h1 {
     /*Sem borda*/
     display: flex;
     /*Botão Flex*/
-    margin-top: 3.125rem;
+    margin-top: 1.6rem;
     /*Espaçamento com o elemento de cima*/
-    padding: 0.5% 5%;
+    padding: 0.5% 1%;
     /*Padding */
     font-family: 'Roboto';
     align-items: center;
-    background-color: #ffffff;
+    background-color: #fff;
     border-radius: 25px;
     /*Arredondamento*/
     font-size: 1rem;
@@ -81,14 +82,15 @@ h1 {
 }
 
 .button_index img {
-    max-width: 15%;
+    width: 15%;
 
 }
 
 .button_index a {
     text-decoration: none;
-    color: #000000;
-    font-size: 1.5rem;
+    color: #000;
+    font-size: 95%;
+    margin-left: 20px;
 
    
 
@@ -102,7 +104,9 @@ h1 {
 
 
 @media (max-width: 720px) {
-
+    .logo_div{
+        width: 55%;
+    }
     .logo_div img {
         width: 50%;
     }
