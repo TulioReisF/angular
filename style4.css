@@ -194,13 +194,14 @@ font-size: 12px;
 
 .conteudobtn{
     display: flex;
-    width: 106%;
+    max-width: 100%;
     flex-direction: column;
     align-items: center;
 }
 
 .conteudobtn button{
     margin-bottom: 10px;
+    width: 100%;
 }
     .valorescards{
         justify-content: space-between;
